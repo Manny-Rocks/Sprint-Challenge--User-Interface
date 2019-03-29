@@ -34,13 +34,51 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+
+
+Semantic HTML is more so meaningful HTML. Semantics is the process of adding meaningful information to HTML codes.
+Many HTML tags have semantic meaning. That is, the element itself conveys some info about the type of content contained between the opening and closing tags. For example, when a browser encounters an h1 heading it interprets that tag to mean that the contents of the h1 element constitute the most important heading of the section that contains the element!
+
+
+
+
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
+ Block elements have no width and will expand accordingly to fit its parents container. They also ignore the vertical-align property. Inline elements will ignore height and width properties and also are subject to the vertical-align proeprty.
+
+
+
+
 
 3. What are the 4 areas of the box model?
 
+M-margin
+B-border
+P-padding
+C-content
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+
+Cross-axis?
+
+
 5. Explain why git is valuable to a team of developers.
+
+
+
+-Unlike some version control software, Git is not fooled by the names of the files when determining what the storage and version history of the file tree should be, instead, Git focuses on the file content itself. 
+
+-Git repositories are secured with a secure hashing algorithm. This protects the code and the change history against both accidental and malicious change and ensures that the history is fully traceable.
+
+-As defined by Quora, Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development but it can be used to keep track of changes in any set of files. For a huge platfrom of developers woer on a project, Git allows each individual to know what changes have been made and if so, where/when.
+
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
