@@ -55,11 +55,12 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color:Red;
 }
 
 p {
@@ -86,6 +87,7 @@ p {
     padding-bottom: 20px;  
 }
 
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -110,6 +112,96 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box-1:hover{
+    background-color: coral;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-2:hover{
+    background-color:red;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-3:hover{
+    background-color: yellowgreen;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-4:hover{
+    background-color: blueviolet;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-5:hover{
+    background-color: rgb(80, 249, 255);
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-6:hover{
+    background-color: tomato;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-7:hover{
+    background-color:lightgreen;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-8:hover{
+    background-color: rgb(217, 255, 80);
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-9:hover{
+    background-color:lightskyblue;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.middle-content .boxes .box-10:hover{
+    background-color:darkcyan;
+    cursor:pointer;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+   
+   -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .middle-content .boxes .box-2 {
     width: 12.5%;
@@ -218,7 +310,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -227,11 +319,8 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lime;
     text-decoration: none;
-}
-header nav a{
-  
 }
 nav.main-nav{
 	width: 100%;
@@ -252,6 +341,33 @@ nav.main-nav{
   border-bottom: 5px solid transparent;
   transition: border-bottom .5s ease-in-out;
 }
+.main-nav a:hover{
+    color:red;
+    border-bottom:2px solid red;
+}
 .middle-logo {
   margin:20x;
 }
+input[type=text] {
+    padding: 6px;
+    width:70%;
+    border: 2px solid black;
+    margin: 18px 0 ;
+    border-radius:15px;
+    font-size: 17px;
+    margin-left:80px;
+  }
+  button{
+    background-color: #4CAF50; /* Green */
+    border:1px solid black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  button:hover{
+      background-color:red;
+  }
